@@ -14,5 +14,8 @@ mvn dependency:tree >> a	mvn	1111
 mvn clean package -Dmaven.test.skip=true	mvn	1110
 mvn clean install -DskipTests	mvn	1009
 mvn clean install -DskipTests -Dos.detected.classifier=osx-x86_64	mvn	1008
+mvn checkstyle:checkstyle	mvn	1007
+mvn license:check	mvn	1006
+mvn clean install -Dcheckstyle.skip=true -DskipTests -Dscalastyle.skip=true -Drat.skip=true -Denforcer.skip=true -Dlicense.skip=true -T32	mvn	1005
 # 密码
 1qaz!QAZ	pswd	1111
