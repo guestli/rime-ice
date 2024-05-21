@@ -19,3 +19,12 @@ mvn license:check	mvn	1006
 mvn clean install -Dcheckstyle.skip=true -DskipTests -Dscalastyle.skip=true -Drat.skip=true -Denforcer.skip=true -Dlicense.skip=true -T32	mvn	1005
 # 密码
 1qaz!QAZ	pswd	1111
+# vim
+复制当前行到剪切板("+yy)	vim	1111
+左上下右(hjkl)	vim	1110
+移动到行首(O)	vim	1109
+移动到行尾($)	vim	1108
+移动到文件开头(gg)	vim	1107
+移动到文件末尾(G)	vim	1106
+撤销上一个操作(u)	vim	1105
+
