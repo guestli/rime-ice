@@ -11,6 +11,7 @@ http://10.16.0.106:8848/nacos	nacos	1111
 http://nacos.local.aloudata.work:8848/nacos	nacos	1110
 # mvn
 mvn dependency:tree >> a	mvn	1111
+-Dmaven.test.failure.ignore=true	mvn	1111
 mvn clean package -Dmaven.test.skip=true	mvn	1110
 mvn clean install -DskipTests	mvn	1009
 mvn clean install -DskipTests -Dos.detected.classifier=osx-x86_64	mvn	1008
