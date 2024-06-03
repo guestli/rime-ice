@@ -28,4 +28,8 @@ mvn clean install -Dcheckstyle.skip=true -DskipTests -Dscalastyle.skip=true -Dra
 移动到文件开头(gg)	vim	1107
 移动到文件末尾(G)	vim	1106
 撤销上一个操作(u)	vim	1105
+# semantic api
+ip:port/semantic/smartdate/complement?tenantId=tenantId&datasourceName=datasourceName	api	1111
+ip:port/semantic/smartdate/initSmartDateTable?tenantId=tenantId&datasourceName=datasourceName	api	1110
+ip:port/semantic/smartdate/recreateSmartDateTable?tenantId=tenantId&datasourceName=datasourceName	api	1109
 
